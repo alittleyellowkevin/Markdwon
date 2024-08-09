@@ -60,3 +60,45 @@ Redis是一个基于内存的key-value结构数据库
 - exists key：检查给定key是否存在
 - type key：返回key所存储的值的类型
 - del key：该命令用于在key存在时删除key
+
+## Spring Data Redis
+
+### 使用方式
+
+1. 导入坐标
+
+```xml
+<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+</dependency> 
+```
+
+2. 配置redis数据源
+
+```yaml
+spring:
+  redis:
+    host: localhost
+    port: 6379
+```
+
+3. 编写配置类，创建redisTemplate对象
+
+```java
+@Configuration
+@Slf4j
+public class RedisConfiguration {
+    @Bean
+    public RedisTemplate redisTemplte(RedisConnectionFactory redisConnectionFactory){
+        log.info("开始创建redis模板类...");
+        RedisTemplate redisTemplate = new RedisTemplate();
+        //设置redis的工厂连接对象
+        redisTemplate.setConnectionFactory(redisConnectionFactory);
+        //设置来redis key的序列化器
+        redisTemplate.setValueSerializer(new StringRedisSerializer());
+        return redisTemplate;
+    }
+}
+```
+
