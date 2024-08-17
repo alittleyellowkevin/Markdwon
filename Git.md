@@ -82,7 +82,7 @@ git checkout 分支名
 4. 将指定分支合并到当前分支上
 
 ```
-git merge 分支名
+git merge 分支名 -m "备注"
 ```
 
 5. 删除分支
@@ -91,13 +91,7 @@ git merge 分支名
 git branch -d 分支名
 ```
 
-
-
-
-
-hello
-
-### 1.注册github并创建repository
+### 1.注册并创建repository
 
 ![截屏2024-04-30 10.40.33](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-04-30 10.40.33.png)
 
