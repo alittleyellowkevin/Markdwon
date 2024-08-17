@@ -1,5 +1,7 @@
 # Git的使用 
 
+hello
+
 ### 1.注册github并创建repository
 
 ![截屏2024-04-30 10.40.33](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-04-30 10.40.33.png)
