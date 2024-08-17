@@ -82,7 +82,7 @@ git checkout 分支名
 4. 将指定分支合并到当前分支上
 
 ```
-git merge 分支名 -m "备注"
+git merge 分支名
 ```
 
 5. 删除分支
@@ -91,57 +91,99 @@ git merge 分支名 -m "备注"
 git branch -d 分支名
 ```
 
-### 1.注册并创建repository
+## Github操作
 
-![截屏2024-04-30 10.40.33](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-04-30 10.40.33.png)
+### 创建远程厂库
 
-### 2.下载git并配置
+<img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-04-30 10.40.33.png" alt="截屏2024-04-30 10.40.33" style="zoom:50%;" />
 
-#### 2.1 配置用户名称以及用户Email
+### 远程仓库操作
 
-```
-git config —global user.name “kevin”
-git condig —global user.email “hello@kevin.cn”
-```
-
-#### 2.2 生成用户密匙
+1. 查看当前所有远程仓库别名
 
 ```
-ssh-keygen-t rsa-C "hello@kevin.cn"
+git remote -v
 ```
 
-#### 2.3 将生成密匙配置到github中测试连接
-
-1.通过命令得到密匙
-
-<img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-04-30 10.47.09.png" alt="截屏2024-04-30 10.47.09" style="zoom:67%;" />
-
-2.随后复制密匙
-
-
-
-<img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-04-30 10.51.51.png" alt="截屏2024-04-30 10.51.51" style="zoom: 67%;" />
-
-
-
-3.管理公钥，选择setting中的SSH和GPGkeys 
-
-<img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-04-30 11.12.37.png" alt="截屏2024-04-30 11.12.37" style="zoom:30%;" />
-
-4.将钥匙复制title可以写成自己然后测试
-
-<img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-04-30 11.13.38.png" alt="截屏2024-04-30 11.13.38" style="zoom:50%;" />
+2. 给远程仓库起别名
 
 ```
-测试是否连接成功：ssh -T git@github.com
+git remote add 别名 远程地址
 ```
 
-### 3.随后在idea中进行配置
+3. 推送本地分支上的内容到远程仓库
 
-#### 3.1 首先将本项目作为本地厂库
+```
+git push 别名 分支
+```
 
-![截屏2024-04-30 11.19.46](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-04-30 11.20.11.png)
+4. 将远程仓库的内容克隆到本地
 
-#### 3.2 设置远端厂库  
+```
+git clone 远程地址
+```
 
-![截屏2024-04-30 11.21.56](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-04-30 11.21.56.png)
+5. 将远程仓库以及分支最新内容拉下来后跟当前本地分支直接合并
+
+```
+git pull 远程库地址别名 远程分支名
+```
+
+### 团队内协作
+
+![截屏2024-08-17 15.40.40](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-17 15.40.40.png)
+
+### **跨团队协作**
+
+1. 首先将他人的远端仓库Fork到自己的远程仓库![截屏2024-08-17 15.48.48](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-17 15.48.48.png)
+2. 当修改完远端仓库，可以通过pull request请求与他人远端仓库合并
+
+![截屏2024-08-17 15.50.20](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-17 15.50.20.png)
+
+### SSH免密登录
+
+1. 生成用户密钥
+
+```cmd
+ssh-keygen -t rsa -C "hello@kevin.cn" # 敲三次回车
+```
+
+2. 复制公钥id_rsa.pub
+
+```
+cat id_rsa.pub
+```
+
+3. 在github中设置公钥
+
+<img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-17 15.58.25.png" alt="截屏2024-08-17 15.58.25" style="zoom: 50%;" />
+
+4. 命令窗口中测试是否添加成功
+
+```
+ssh -T git@github.com
+```
+
+## IDEA集成Git
+
+1. 初始化项目
+
+<img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-17 16.07.43.png" alt="截屏2024-08-17 16.07.43" style="zoom: 150%;" />
+
+2. 恢复版本
+
+![截屏2024-08-17 16.13.16](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-17 16.13.16.png)
+
+3. 创建分支
+
+<img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-17 16.15.46.png" alt="截屏2024-08-17 16.15.46" style="zoom: 50%;" />
+
+4. 合并分支
+
+<img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-17 16.18.59.png" alt="截屏2024-08-17 16.18.59" style="zoom: 67%;" />
+
+5. 设置github账号，先从github的setttings\developer settings中创建token，随后写入idea
+
+   ![截屏2024-08-17 16.26.12](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-17 16.26.12.png)
+
+![截屏2024-08-17 16.24.15](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-17 16.24.15.png)
