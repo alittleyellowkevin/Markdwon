@@ -19,9 +19,9 @@
 
 2. Maven环境变量配置，依赖java，所以需要配置JAVA_HOME, 设置MAVEN自身的运行环境, 需要配置MAVEN_HOME 
 
-   ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/8a5d0df3-ed78-410d-adca-53dbe24789e7.png) alt="截屏2024-08-18 19.07.09" style="zoom:50%;" />
+   ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/8a5d0df3-ed78-410d-adca-53dbe24789e7.png)
 
-![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/73e36098-ce8f-47c6-8308-54678dcd46bd.png) alt="截屏2024-08-18 19.08.06" style="zoom:50%;" />
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/73e36098-ce8f-47c6-8308-54678dcd46bd.png) 
 
 3. 配置本地仓库
 
