@@ -221,7 +221,7 @@ docker -v /mysql:/var/lib/mysql # 本地目录挂载
 
 
 
-<img src="https://seazean.oss-cn-beijing.aliyuncs.com/img/Tool/Docker-容器的数据卷.png" style="zoom:67%;" />
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/a5784333-6bff-46d7-9ebb-54f7bf8d20e9.png) style="zoom:67%;" />
 
 **数据卷**：数据卷是宿主机中的一个目录或文件，当容器目录和数据卷目录绑定后，对方的修改会立即同步
 

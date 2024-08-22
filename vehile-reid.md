@@ -60,7 +60,7 @@
 > }
 > ```
 > 
-> <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-11-12 21.50.01.png" alt="截屏2023-11-12 21.50.01 " style="zoom:100%;" />
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/09c964bb-ae55-4979-8e0c-10c2a4acecfa.png) alt="截屏2023-11-12 21.50.01 " style="zoom:100%;" />
 
 - **GiT: Graph Interactive Transformer for Vehicle Re-Identification** 
 
@@ -116,7 +116,7 @@
 > }
 > ```
 > 
-> <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-11-12 22.04.29.png" alt="截屏2023-11-12 22.04.29 " style="zoom:50%;" />
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/4c4ea640-2dd9-4998-9b38-68a6f2e3f872.png) alt="截屏2023-11-12 22.04.29 " style="zoom:50%;" />
 
 - **MSINet: Twins Contrastive Search of Multi-Scale Interaction for Object ReID**
 
@@ -134,7 +134,7 @@
 >}
 > ```
 > 
-> <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-11-21 10.53.47.png" alt="截屏2023-11-21 10.53.47" style="zoom:45%;" />
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/a99eaba5-0d3f-4c96-b6a2-8f91482d6a62.png) alt="截屏2023-11-21 10.53.47" style="zoom:45%;" />
 
 - **Robust and Scalable Vehicle Re-Identification via Self-Supervision**
 
@@ -152,7 +152,7 @@
 > }
 > ```
 > 
-> <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-12-11 09.13.07.png" alt="截屏2023-12-11 09.13.07 " style="zoom:70%;" />
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/67e2020e-f0af-4d91-b980-bc12beeb31ee.png) alt="截屏2023-12-11 09.13.07 " style="zoom:70%;" />
 > 
 > ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/01184500-369f-488c-8a6f-46f5ebb768b9.png)
 
@@ -173,7 +173,7 @@
 > }
 > ```
 >   
-><img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-12-11 09.19.03.png" alt="截屏2023-12-11 09.19.03" style="zoom:50%;" />
+>![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/04662afa-8a0d-42ff-b1ab-f3f8dc9cc682.png) alt="截屏2023-12-11 09.19.03" style="zoom:50%;" />
 
 - **CLIP-ReID: Exploiting Vision-Language Model for Image Re-Identification without Concrete Text Labels**
 
@@ -193,7 +193,7 @@
 > }
 > ```
 >
-> <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-11-12 21.19.07.png" alt="截屏2023-11-12 21.19.07 " style="zoom:33%;" />
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/bc766f05-df81-4d1d-b055-af416371a485.png) alt="截屏2023-11-12 21.19.07 " style="zoom:33%;" />
 
 - **VehicleGAN: Pair-flexible Pose Guided Image Synthesis for Vehicle Re-identification**
 
@@ -250,7 +250,7 @@
 > }
 > ```
 >
-> <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-11-12 22.00.44.png" alt="截屏2023-11-12 22.00.44 " style="zoom:33%;" />
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/dd86618a-5701-48b9-8195-3ebbecf87431.png) alt="截屏2023-11-12 22.00.44 " style="zoom:33%;" />
 
 - **Rethinking the Optimization of Average Precision: Only Penalizing Negative Instances before Positive Ones Is Enough**
 
@@ -262,7 +262,7 @@
 >
 > **论文引用**：Li Z, Min W, Song J, et al. Rethinking the optimization of average precision: only penalizing negative instances before positive ones is enough[C]//Proceedings of the AAAI Conference on Artificial Intelligence. 2022, 36(2): 1518-1526.
 >
-> <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-11-15 13.49.43.png" alt="截屏2023-11-15 13.49.43 " style="zoom:33%;" />
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/52462c99-d916-4713-9f5b-e04e48f9c358.png) alt="截屏2023-11-15 13.49.43 " style="zoom:33%;" />
 > $$
 > S_\Omega = \{s_i =cos(V_q,V_i), i=0,...,m\} \tag{1}
 > $$
@@ -303,7 +303,7 @@
 > }
 > ```
 > 
-> <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-11-12 21.32.05.png" alt="截屏2023-11-12 21.32.05 " style="zoom:100%;" />
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/4ab952c2-9008-43c3-9b6b-220eb57ae932.png) alt="截屏2023-11-12 21.32.05 " style="zoom:100%;" />
 
 - **Heterogeneous Relational Complement for Vehicle Re-identification**
 
@@ -348,7 +348,7 @@
 > }
 > ```
 >
-> <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-11-30 12.36.06.png" alt="截屏2023-11-30 12.36.06" style="zoom: 100%;" />
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/191281fe-a5ef-4fd3-810b-68bcf5cad759.png) alt="截屏2023-11-30 12.36.06" style="zoom: 100%;" />
 
 - **PhD Learning: Learning with Pompeiu-hausdorff Distances for Video-based Vehicle Re-Identification** 
 
@@ -373,7 +373,7 @@
 > }
 > ```
 >
-> <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-11-12 21.47.00.png" alt="截屏2023-11-12 21.47.00 " style="zoom:100%;" />
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/750488b3-988f-4e16-8c10-43eaece4648b.png) alt="截屏2023-11-12 21.47.00 " style="zoom:100%;" />
 
 
 
@@ -393,7 +393,7 @@
 > }
 > ```
 >
-> <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-11-12 22.14.48.png" alt="截屏2023-11-12 22.14.48 " style="zoom: 67%;" />
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/eb1dc9a4-b4f9-4673-a1f4-2e4de923f1a6.png) alt="截屏2023-11-12 22.14.48 " style="zoom: 67%;" />
 
 - **Embedding Adversarial Learning for Vehicle Re-Identification**
 
@@ -414,7 +414,7 @@
 > }
 > ```
 >
-> <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-11-16 13.59.17.png" alt="截屏2023-11-16 13.59.17" style="zoom:33%;" />
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/c47a8c12-9af0-47d4-a1d6-cf296e9b5bdb.png) alt="截屏2023-11-16 13.59.17" style="zoom:33%;" />
 
 - **A Strong Baseline for Vehicle Re-Identification**
 
@@ -467,7 +467,7 @@
   > }
   > ```
   >
-  > <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-11-12 21.58.20.png" alt="截屏2023-11-12 21.58.20 " style="zoom:33%;" />
+  > ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/f3ebc39e-cdff-43b8-b897-e8d0f481b648.png) alt="截屏2023-11-12 21.58.20 " style="zoom:33%;" />
 
   - **Looking GLAMORous: Vehicle Re-Id in Heterogeneous Cameras Networks with Global and Local Attention**
 
@@ -521,9 +521,9 @@
 > }
 > ```
 >
-> <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-11-15 10.14.27.png" alt="截屏2023-11-15 10.14.27 " style="zoom: 25%;" />
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/38131e57-aa7b-4d51-add1-d3fb2ab07d6f.png) alt="截屏2023-11-15 10.14.27 " style="zoom: 25%;" />
 >
-> <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-12-22 18.44.01.png" alt="截屏2023-12-22 18.44.01" style="zoom:30%;" />
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/3da897ad-62f3-4d3c-8813-f2eb246a49e5.png) alt="截屏2023-12-22 18.44.01" style="zoom:30%;" />
 
 - **VehicleNet: Learning Robust Visual Representa for Vehicle Re-identification**
 
@@ -549,7 +549,7 @@
 > }
 > ```
 >
-> <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-11-15 09.54.16.png" alt="截屏2023-11-15 09.54.16 " style="zoom:33%;" />
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/aecc11c4-7287-476e-8289-d7b4056c053d.png) alt="截屏2023-11-15 09.54.16 " style="zoom:33%;" />
 
 - **VOC-ReID: Vehicle Re-identification based on Vehicle-Orientation-Camera**
 
@@ -576,7 +576,7 @@
 >
 > ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/15305208-6602-4f27-9d31-485890b53676.png)
 >
-> <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-11-16 13.34.15.png" alt="截屏2023-11-16 13.34.15" style="zoom: 33%;" />
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/d3c73e3e-27fd-4f72-bc8f-7da5e154b8e1.png) alt="截屏2023-11-16 13.34.15" style="zoom: 33%;" />
 
 - **Attribute-Guided Feature Learning Network for Vehicle Reidentification**
 
@@ -604,7 +604,7 @@
 > }
 > ```
 >
-> <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-11-15 09.54.16.png" alt="截屏2023-11-15 09.54.16 " style="zoom:33%;" />
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/e487ded3-9ced-4f3d-ae6a-7254de44622f.png) alt="截屏2023-11-15 09.54.16 " style="zoom:33%;" />
 
 ## 2019
 
@@ -685,7 +685,7 @@
   > }
   > ```
   >
-  > <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-11-12 21.15.34.png" alt="截屏2023-11-12 21.15.34 " style="zoom:33%;" />
+  > ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/9a3a2573-9e57-4eb6-9139-0d7a9392a677.png) alt="截屏2023-11-12 21.15.34 " style="zoom:33%;" />
 
 
 
@@ -707,7 +707,7 @@
   > }
   > ```
   >
-  > <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-11-12 21.28.39.png" alt="截屏2023-11-12 21.28.39 " style="zoom:33%;" />
+  > ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/ce01c0a4-2bba-4cce-bef4-b3c4ca69f573.png) alt="截屏2023-11-12 21.28.39 " style="zoom:33%;" />
 
 - **Partition and Reunion: A Two-Branch Neural Network for Vehicle Re-identification**
 
@@ -725,7 +725,7 @@
   > }
   > ```
   >
-  > <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-11-12 21.23.33.png" alt="截屏2023-11-12 21.23.33 " style="zoom:33%;" />
+  > ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/96ec2d56-5fb1-4cb7-b4a5-62ab1b3b1f27.png) alt="截屏2023-11-12 21.23.33 " style="zoom:33%;" />
 
   - **Deep Feature Fusion with Multiple Granularity for Vehicle Re-identification** 
   
@@ -749,7 +749,7 @@
   > }
   > ```
   >
-  > <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-11-12 21.37.58.png" alt="截屏2023-11-12 21.37.58 " style="zoom:33%;" />
+  > ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/a51962f9-6ad6-4cff-83fc-a8d20f2b2dab.png) alt="截屏2023-11-12 21.37.58 " style="zoom:33%;" />
 
   - **MULTI-VIEW LEARNING FOR VEHICLE RE-IDENTIFICATION** 
   
@@ -757,7 +757,7 @@
   >
   > **论文引用**：Lin W, Li Y, Yang X, et al. Multi-view learning for vehicle re-identification[C]//2019 IEEE international conference on multimedia and expo (ICME). IEEE, 2019: 832-837.
   >
-  > <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-11-12 21.53.57.png" alt="截屏2023-11-12 21.53.57 " style="zoom:100%;" />
+  > ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/de4d0436-adfb-4aca-840f-6894ae6f1051.png) alt="截屏2023-11-12 21.53.57 " style="zoom:100%;" />
   
   **Variational representation learning for vehicle re-identification** 
   
@@ -788,7 +788,7 @@
   > }
   > ```
   >
-  > <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-11-15 14.52.29.png" alt="截屏2023-11-15 14.52.29 "  />
+  > ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/b825d907-3e82-4bb9-87f8-cc71b838202f.png) alt="截屏2023-11-15 14.52.29 "  />
   
   - **Attention Driven Vehicle Re-identification and Unsupervised Anomaly Detection for Traffic Understanding** 
   
@@ -806,7 +806,7 @@
   > }
   > ```
   >
-  > <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-11-15 16.14.49.png" alt="截屏2023-11-15 16.14.49" style="zoom:67%;" />
+  > ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/f48ebb42-e788-4eca-91a8-e5146ffca544.png) alt="截屏2023-11-15 16.14.49" style="zoom:67%;" />
   
   - **Vehicle Re-Identification Using Quadruple Directional Deep Learning Features**
   
@@ -859,7 +859,7 @@
   > }
   > ```
   >
-  > <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-11-30 12.00.22.png" alt="截屏2023-11-30 12.00.22" style="zoom:100%;" />
+  > ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/ec811b33-9847-44d4-9d65-0193fc819c22.png) alt="截屏2023-11-30 12.00.22" style="zoom:100%;" />
   
   - **Part-regularized Near-duplicate Vehicle Re-identification** 
   
@@ -961,7 +961,7 @@
 > }
 > ```
 >
-> <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-11-12 22.25.48.png" alt="截屏2023-11-12 22.25.48 " style="zoom:100%;" />
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/404a5109-adc7-400b-8d35-9737634204ff.png) alt="截屏2023-11-12 22.25.48 " style="zoom:100%;" />
 
 - **RAM: A REGION-AWARE DEEP MODEL FOR VEHICLE RE-IDENTIFICATION**
 
@@ -987,7 +987,7 @@
 > }
 > ```
 >
-> <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-11-15 15.50.04.png" alt="截屏2023-11-15 15.50.04" style="zoom: 67%;" />
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/e5c082c9-32af-426d-9824-7309790419b6.png) alt="截屏2023-11-15 15.50.04" style="zoom: 67%;" />
 
 - **RAM: A REGION-AWARE DEEP MODEL FOR VEHICLE RE-IDENTIFICATION**
 
@@ -1091,7 +1091,7 @@
 > }
 > ```
 >
-> <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-12-22 14.21.16.png" alt="截屏2023-12-22 14.21.16" style="zoom:40%;" />
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/a5f45cc8-26fd-4307-90fa-02d7b58d3faa.png) alt="截屏2023-12-22 14.21.16" style="zoom:40%;" />
 
 - **DEEP JOINT DISCRIMINATIVE LEARNING FOR VEHICLE RE-IDENTIFICATION AND RETRIEVAL**
 
@@ -1099,7 +1099,7 @@
 >
 > **论文引用**：Wang Z, Tang L, Liu X, et al. Orientation invariant feature embedding and spatial temporal regularization for vehicle re-identification[C]//Proceedings of the IEEE international conference on computer vision. 2017: 379-387.
 >
-> <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-12-11 10.46.27.png" alt="截屏2023-12-11 10.46.27" style="zoom:25%;" />
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/d773f887-0b88-47cc-bb07-fdcae176146a.png) alt="截屏2023-12-11 10.46.27" style="zoom:25%;" />
 
 - **Learning Deep Neural Networks for Vehicle Re-ID with Visual-spatio-temporal Path Proposals**
 

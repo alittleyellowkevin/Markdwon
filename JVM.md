@@ -76,7 +76,7 @@ java8后**元空间**保存类信息，静态变量，常量，编译后的代�
 
 **分代回收算法**：新创建的对象先分配到eden区，当eden去内存不足，标记eden区和from区的存活对象将其复制到to区，如果再次内存不足则复制到from区，经过多次复制存活下来的对象晋升到老年代
 
-<img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-06 12.07.54.png" alt="截屏2024-08-06 12.07.54" style="zoom:50%;" />
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/0ce6bf4a-d1e1-4208-ae64-cc761cdb5d21.png) 
 
 1. MinorGC：发生在新生代的垃圾回收，暂停时间短
 2. MixedGC：新生代+老年代部分区域的垃圾回收，G1收集器特有

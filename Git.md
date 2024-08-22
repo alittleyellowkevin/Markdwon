@@ -95,7 +95,7 @@ git branch -d 分支名
 
 ### 创建远程厂库
 
-<img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-04-30 10.40.33.png" alt="截屏2024-04-30 10.40.33" style="zoom:50%;" />
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/e89fd3f4-5a46-42f0-b132-90c477faea70.png) alt="截屏2024-04-30 10.40.33" style="zoom:50%;" />
 
 ### 远程仓库操作
 
@@ -156,7 +156,7 @@ cat id_rsa.pub
 
 3. 在github中设置公钥
 
-<img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-17 15.58.25.png" alt="截屏2024-08-17 15.58.25" style="zoom: 50%;" />
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/9816b7c0-79d8-45b4-8cf1-f717bde57531.png) alt="截屏2024-08-17 15.58.25" style="zoom: 50%;" />
 
 4. 命令窗口中测试是否添加成功
 
@@ -168,7 +168,7 @@ ssh -T git@github.com
 
 1. 初始化项目
 
-<img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-17 16.07.43.png" alt="截屏2024-08-17 16.07.43" style="zoom: 150%;" />
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/77c59298-5514-4cab-902d-42bb1caa6cd3.png) alt="截屏2024-08-17 16.07.43" style="zoom: 150%;" />
 
 2. 恢复版本
 
@@ -176,11 +176,11 @@ ssh -T git@github.com
 
 3. 创建分支
 
-<img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-17 16.15.46.png" alt="截屏2024-08-17 16.15.46" style="zoom: 50%;" />
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/83889979-03e1-4207-8387-71d6610ec0cf.png) alt="截屏2024-08-17 16.15.46" style="zoom: 50%;" />
 
 4. 合并分支
 
-<img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-17 16.18.59.png" alt="截屏2024-08-17 16.18.59" style="zoom: 67%;" />
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/32a72354-8716-441a-b28e-077189164afb.png) alt="截屏2024-08-17 16.18.59" style="zoom: 67%;" />
 
 5. 设置github账号，先从github的setttings\developer settings中创建token，随后写入idea
 

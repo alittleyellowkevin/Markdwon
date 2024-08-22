@@ -243,7 +243,7 @@ set [session|global] transaction isolation levl {read uncommitted | read committ
 
 ### 事务隔离级别
 
-<img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-16 21.21.27.png" alt="截屏2024-08-16 21.21.27" style="zoom: 150%;" />
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/bb40ac59-e4b6-4d9a-93a3-eb231f62ca3c.png) alt="截屏2024-08-16 21.21.27" style="zoom: 150%;" />
 
 ### 事务原理
 
