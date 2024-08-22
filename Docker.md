@@ -17,7 +17,7 @@ Docker 架构：
 * **容器（Container）**：镜像（Image）和容器（Container）的关系，就像是面向对象程序设计中的类和对象一样，镜像是静态的定义，容器是镜像运行时的实体。容器可以被创建、启动、停止、删除、暂停等
 * **仓库（Repository）**：仓库可看成一个代码控制中心，用来保存镜像 
 
-![截屏2024-08-08 14.13.16](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-08 14.13.16.png)
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/a96e0825-157e-470b-8df3-ee8dc38d1611.png)
 
 安装步骤：
 

@@ -6,7 +6,7 @@
 
 > **Engineering Applications of Artificial Intelligence **2024. [(PDF)](/Users/huangkaiwen/Desktop/Paper/vehicle-reid/2024-TANet- Text region attention learning for vehicle re-identification.pdf) **[link](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=TANet%3A+Text+region+attention+learning+for+vehicle+re-identification&btnG=) 【引用数：**0】
 >
-> ![截屏2024-06-02 08.55.30](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-06-02 08.55.30.png)
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/179289c8-02de-4dfb-b4f7-83ffa0e1c47b.png)
 >
 > **论文引用**：
 >
@@ -27,7 +27,7 @@
 
 > **CVPR **2024. [(PDF)](/Users/huangkaiwen/Desktop/Paper/vehicle-reid/2024-Li_Day-Night_Cross-domain_Vehicle_Re-identification_CVPR_2024_paper.pdf) **[link](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Day-Night+Cross-domain+Vehicle+Re-identification&btnG=) 【引用数：**0】
 >
-> ![截屏2024-06-02 08.55.30](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-07-04 09.20.05.png)
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/2671de45-735a-4a32-849b-432a97e18e21.png)
 >
 > **论文引用**：
 >
@@ -80,7 +80,7 @@
 > }
 > ```
 >
-> ![截屏2024-06-02 09.04.13](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-06-02 09.04.13.png)
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/2352ee29-ba10-4b0e-b4cb-f36781d5d45c.png)
 
 - **FastReID: A Pytorch Toolbox for General Instance Re-identification**
 
@@ -98,7 +98,7 @@
 > }
 > ```
 > 
-> ![截屏2024-06-12 17.01.34](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-06-12 17.01.34.png)
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/4b56e9ed-673a-49c2-b9b2-b1f1bb88366a.png)
 
 - **Relation Preserving Triplet Mining for Stabilising the Triplet Loss in Re-identification Systems**
 
@@ -154,7 +154,7 @@
 > 
 > <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-12-11 09.13.07.png" alt="截屏2023-12-11 09.13.07 " style="zoom:70%;" />
 > 
-> ![截屏2023-12-22 19.44.01](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-12-22 19.44.01.png)
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/01184500-369f-488c-8a6f-46f5ebb768b9.png)
 
 - **A Meta-learning Approach for Domain Generalisation across Visual Modalities in Vehicle Re-identification**
 
@@ -210,7 +210,7 @@
 > }
 > ```
 > 
-> ![截屏2023-12-23 11.38.27](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-12-23 11.38.27.png)
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/d9f0ad19-b2fe-4198-a42c-896397e9f430.png)
 
 
 
@@ -232,7 +232,7 @@
 > }
 > ```
 >
-> ![截屏2024-01-05 10.59.32](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-01-05 10.59.32.png)
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/f7e23e98-7437-42c7-8bef-401c52eb32cd.png)
 
 - **Recall@k Surrogate Loss with Large Batches and Similarity Mixup**
 
@@ -321,7 +321,7 @@
 > }
 > ```
 >
-> ![截屏2024-05-31 09.56.09](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-05-31 09.56.09.png)
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/fabfc6d4-3ec7-4097-989d-be4dc5b86cb0.png)
 
 - **Attributes Guided Feature Learning for Vehicle Re-Identification**
 
@@ -438,7 +438,7 @@
 > }
 > ```
 >
-> ![截屏2023-11-30 12.04.23](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-11-30 12.04.23.png)
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/5ba87d15-dd03-413d-b1d0-bdca8725c376.png)
 
 ## 2020
 
@@ -494,7 +494,7 @@
   > }
   > ```
   >
-  > ![截屏2023-12-22 21.17.01](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-12-22 21.17.01.png)
+  > ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/b3a09e6c-c31f-4dad-a096-ed8554ae33a3.png)
 
   
 
@@ -574,7 +574,7 @@
 > }
 > ```
 >
-> ![截屏2023-12-22 14.28.46](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-12-22 14.28.46.png)
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/15305208-6602-4f27-9d31-485890b53676.png)
 >
 > <img src="/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-11-16 13.34.15.png" alt="截屏2023-11-16 13.34.15" style="zoom: 33%;" />
 
@@ -633,7 +633,7 @@
 > }
 > ```
 >
-> ![截屏2024-01-03 19.47.44](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-01-03 20.07.32.png)
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/f6192b28-c9bc-4519-bb89-db7079c86da6.png)
 
 - **Vehicle Re-identification with Viewpoint-aware Metric Learning**. 
 
@@ -659,9 +659,9 @@
   > }
   > ```
   >
-  > ![截屏2024-01-03 19.47.44](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-01-03 19.47.44.png)
+  > ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/cd853c7d-0095-4793-afcb-2c024031cf57.png)
   >
-  > ![截屏2024-01-03 19.49.07](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-01-03 19.49.07.png)
+  > ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/743fd282-0030-4b34-9708-489efdc1e69e.png)
 
 - **Vehicle Re-identification with Viewpoint-aware Metric Learning**. 
 
@@ -833,7 +833,7 @@
   > }
   > ```
   >
-  > ![截屏2023-12-22 17.54.46](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-12-22 17.54.46.png)
+  > ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/c997159b-0288-4129-a329-bae0c8550be9.png)
   
   
   
@@ -884,7 +884,7 @@
   > }
   > ```
   >
-  > ![截屏2023-12-12 08.17.57](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-12-12 08.17.57.png)
+  > ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/5d04fba3-8e2a-4898-a2cc-53b53e887595.png)
   
   - **Embedding Adversarial Learning for Vehicle Re-Identification** 
   
@@ -911,7 +911,7 @@
   > }
   > ```
   >
-  > ![截屏2023-12-22 21.39.26](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-12-22 21.39.26.png)
+  > ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/98fab494-45ab-4ed7-9185-e9461da4cc3e.png)
   
   - **Bag of Tricks and A Strong Baseline for Deep Person Re-identification** 
   
@@ -933,7 +933,7 @@
   > }
   > ```
   >
-  > ![截屏2023-12-22 21.39.26](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-12-27 07.57.34.png)
+  > ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/dacfbd72-3097-4bb2-a23c-61604850aa56.png)
   
   
 
@@ -1011,7 +1011,7 @@
 > }
 > ```
 >
-> ![截屏2024-01-04 13.33.34](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-01-04 13.33.34.png)
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/e0c8564b-09f4-4bf4-a557-83263ba8600f.png)
 
 ## 2017
 
@@ -1038,7 +1038,7 @@
 > }
 > ```
 >
-> ![截屏2024-01-18 18.37.06](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-01-18 18.37.06.png)
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/df3bdebd-978e-4d71-ab6e-92932248dbf8.png)
 
 - **PROVID: Progressive and Multimodal Vehicle Reidentification for Large-Scale Urban Surveillance**
 
@@ -1065,7 +1065,7 @@
 > }
 > ```
 >
-> ![截屏2023-12-11 11.04.59](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-12-11 11.04.59.png)
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/0d22859f-d129-409e-9b54-ef0ac22ce28a.png)
 
 - **DEEP JOINT DISCRIMINATIVE LEARNING FOR VEHICLE RE-IDENTIFICATION AND RETRIEVAL**
 
@@ -1138,7 +1138,7 @@
 > }
 > ```
 >
-> ![截屏2023-12-23 14.34.28](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2023-12-23 14.34.28.png)
+> ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/4cca69df-c3ae-47f8-ad55-da8286c56f78.png)
 
 - **Learning Deep Neural Networks for Vehicle Re-ID with Visual-spatio-temporal Path Proposals**
 

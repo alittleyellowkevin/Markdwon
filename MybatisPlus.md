@@ -101,9 +101,9 @@ public class UserServiceImpl
 
 ### 代码生成
 
-1. Idea中安装插件MybatisPlus![截屏2024-08-07 20.03.52](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-07 20.03.52.png)
+1. Idea中安装插件MybatisPlus![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/ed938c0e-b1ef-412c-a5aa-695926f641bb.png)
 
-2. 随后打开other进行配置，最后生成![截屏2024-08-07 20.04.37](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-07 20.04.37.png)
+2. 随后打开other进行配置，最后生成![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/319f5d60-3298-406e-89d4-d1c5362c541f.png)
 
 ### DB静态工具
 

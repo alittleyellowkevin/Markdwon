@@ -2,7 +2,7 @@
 
 ## Git 概述
 
-![截屏2024-08-17 14.10.30](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-17 14.10.30.png)
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/66a80e15-5b75-4d39-a179-9472d5eaee99.png)
 
 ## Git 命令
 
@@ -131,14 +131,14 @@ git pull 远程库地址别名 远程分支名
 
 ### 团队内协作
 
-![截屏2024-08-17 15.40.40](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-17 15.40.40.png)
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/61bf51f7-5882-45f0-b03b-60ff606adb10.png)
 
 ### **跨团队协作**
 
-1. 首先将他人的远端仓库Fork到自己的远程仓库![截屏2024-08-17 15.48.48](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-17 15.48.48.png)
+1. 首先将他人的远端仓库Fork到自己的远程仓库![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/62692a5e-62f1-4004-99bb-c48834196adf.png)
 2. 当修改完远端仓库，可以通过pull request请求与他人远端仓库合并
 
-![截屏2024-08-17 15.50.20](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-17 15.50.20.png)
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/898181d7-20c4-4897-a8b2-bcdc2b51daf0.png)
 
 ### SSH免密登录
 
@@ -172,7 +172,7 @@ ssh -T git@github.com
 
 2. 恢复版本
 
-![截屏2024-08-17 16.13.16](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-17 16.13.16.png)
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/5ae4f335-73af-4457-a72f-19aac68b2b21.png)
 
 3. 创建分支
 
@@ -184,6 +184,6 @@ ssh -T git@github.com
 
 5. 设置github账号，先从github的setttings\developer settings中创建token，随后写入idea
 
-   ![截屏2024-08-17 16.26.12](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-17 16.26.12.png)
+   ![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/a53db77e-96f3-4e61-b3a5-9ce57b690855.png)
 
-![截屏2024-08-17 16.24.15](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-17 16.24.15.png)
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/5ea13437-447e-4d7a-8367-78bd67b1c27a.png)

@@ -6,7 +6,7 @@ Java二进制字节码文件的运行环境，有着一次编写，到处运行�
 
 ### JVM的结构
 
-![截屏2024-08-05 19.17.30](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-05 19.17.30.png)
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/060141ef-147a-4d62-84c0-16cd058062aa.png)
 
 类加载器：加载字节码文件到内存中
 

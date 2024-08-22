@@ -67,7 +67,7 @@ b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePro
 
 4. 复制该文件并在nacos中添加
 
-![image-20240813101339011](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240813101339011.png)
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/23572fdf-617d-4d63-9f4d-9a50fad77197.png)
 
 ## OpenFeign
 

@@ -106,7 +106,7 @@ public class RedisConfiguration {
 
 - 实现思路
 
-![截屏2024-08-20 09.46.03](D:\Application\1648053382\FileRecv\MobileFile\截屏2024-08-20 09.46.03.png)
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/0f3ea1f9-c0f5-406c-ac39-a924e8d391e0.png)
 
 1. 自媒体端将任务添加
 

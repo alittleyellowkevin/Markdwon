@@ -256,7 +256,7 @@ set [session|global] transaction isolation levl {read uncommitted | read committ
 
 1. 隐式字段：`DB_TRX_ID`最近修改事务的ID，`DB_ROLL_PTR`回滚指针，`DB_ROW_ID`隐藏主键
 2. undo log文件：回滚指针指向undo log链
-3. read view：用于记录并维护系统当前活跃的事务（未提交）id，包括四个字段：`m_ids`当前活跃事务ID集合, `min_trx_id`最小活跃事务, `max_trx_id`预分配的事务ID, `creator_trx_id` readview创建者ID![截屏2024-08-17 12.02.37](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-17 12.05.12.png)
+3. read view：用于记录并维护系统当前活跃的事务（未提交）id，包括四个字段：`m_ids`当前活跃事务ID集合, `min_trx_id`最小活跃事务, `max_trx_id`预分配的事务ID, `creator_trx_id` readview创建者ID![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/d371c4b2-f48b-49fb-9727-a681e5037591.png)
 
 - 查看ibd文件
 
@@ -464,36 +464,36 @@ long_query_time=2
 
 ## 函数
 
-![截屏2024-08-16 19.28.34](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-16 19.28.34.png)
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/5a71f9be-7822-4260-9c97-b74b95e8e3f0.png)
 
-![截屏2024-08-16 19.29.00](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-16 19.29.00.png)
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/575b9c40-a58d-48f1-8921-7760c015084f.png)
 
-![截屏2024-08-16 19.29.08](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-16 19.29.08.png)
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/ad3b7a7f-b2cf-4e7b-8bb3-b9e52c798074.png)
 
-![截屏2024-08-16 19.29.28](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-16 19.29.28.png)
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/3c9d89c9-8d04-4ecb-93a1-5e1db984dbdc.png)
 
 ## 查询条件
 
-![截屏2024-08-16 17.12.52](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-16 17.12.52.png)
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/5a3f472d-5464-4454-99ff-d11c1a0d8a48.png)
 
 ## 数据类型
 
-![截屏2024-08-16 14.31.41](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-16 14.32.22.png)
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/61845518-7a5a-4b04-80a4-fda22b3a8080.png)
 
-![截屏2024-08-16 14.32.36](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-16 14.32.36.png)
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/877dbca5-5f59-452e-b67a-c22915616bc3.png)
 
-![截屏2024-08-16 14.32.51](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-16 14.32.51.png)
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/6558653a-13bb-4e1a-b4fc-9a16353e3a32.png)
 
 ## 约束
 
 - 内键约束
 
-![截屏2024-08-16 15.56.56](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-16 15.56.56.png)
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/1282b833-f909-4a8a-b39b-f06e00282c51.png)
 
 - 外键约束
 
-![截屏2024-08-16 15.57.23](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-16 15.57.23.png)
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/363ebfe7-638a-4377-b738-d24ac9d5b752.png)
 
 ## 存储引擎
 
-![截屏2024-08-16 21.22.59](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-16 21.22.59.png)
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/f22d63db-2970-4167-91db-13a61628686f.png)

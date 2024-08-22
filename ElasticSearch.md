@@ -43,7 +43,7 @@ elasticsearch.hosts: ["http://localhost:9200"]
 
 ### 倒排索引
 
-![D3E17318B9C8EA560A890C7B3E810FB7](D:\Application\1648053382\FileRecv\MobileFile\D3E17318B9C8EA560A890C7B3E810FB7.png)
+![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/63b0f26b-508f-48ca-ae4f-f98056207216.png)
 
 
 

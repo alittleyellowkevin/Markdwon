@@ -332,7 +332,7 @@ spring:
 - 消息是一个过期消息，超时无人消费
 - 要投递的队列消息堆积满了，最早的消息可能成为死信
 
-如果一个队列通过dead-letter-exchange属性指定了一个交换机，那么该队列中死信就会投递到这个交换机中，称为死信交换机（Dead letter exchange）![截屏2024-08-08 18.34.20](/Users/huangkaiwen/Library/Application Support/typora-user-images/截屏2024-08-08 18.34.20.png)
+如果一个队列通过dead-letter-exchange属性指定了一个交换机，那么该队列中死信就会投递到这个交换机中，称为死信交换机（Dead letter exchange）![](https://gulinall-hkw.oss-cn-shenzhen.aliyuncs.com/c1578076-9294-45c1-b148-0f381d24b9bc.png)
 
 #### 延迟消息插件
 
