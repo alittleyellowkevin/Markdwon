@@ -102,3 +102,161 @@ public class RedisConfiguration {
 }
 ```
 
+## redis实现延迟任务
+
+- 实现思路
+
+![截屏2024-08-20 09.46.03](D:\Application\1648053382\FileRecv\MobileFile\截屏2024-08-20 09.46.03.png)
+
+1. 自媒体端将任务添加
+
+```java
+@Override
+    @Async
+    public void addNewsToTask(Integer id, Date publishTime) {
+
+        log.info("添加任务到延迟服务中----begin");
+
+        Task task = new Task();
+        task.setExecuteTime(publishTime.getTime());
+        task.setTaskType(TaskTypeEnum.NEWS_SCAN_TIME.getTaskType());
+        task.setPriority(TaskTypeEnum.NEWS_SCAN_TIME.getPriority());
+        WmNews wmNews = new WmNews();
+        wmNews.setId(id);
+        task.setParameters(ProtostuffUtil.serialize(wmNews));
+        scheduleClient.addTask(task);
+        log.info("添加任务到延迟服务中----end");
+
+    }
+```
+
+2. 定时任务类中实现任务的添加
+
+```java
+ @Override
+    public long addTask(Task task) {
+        //1.添加任务到数据库中
+
+        boolean success = addTaskToDb(task);
+
+        if (success) {
+            //2.添加任务到redis
+            addTaskToCache(task);
+        }
+
+
+        return task.getTaskId();
+    }
+
+    @Autowired
+    private CacheService cacheService;
+
+    /**
+     * 把任务添加到redis中
+     *
+     * @param task
+     */
+    private void addTaskToCache(Task task) {
+
+        String key = task.getTaskType() + "_" + task.getPriority();
+
+        //获取5分钟之后的时间  毫秒值
+        Calendar calendar = Calendar.getInstance();
+        calendar.add(Calendar.MINUTE, 5);
+        long nextScheduleTime = calendar.getTimeInMillis();
+
+        //2.1 如果任务的执行时间小于等于当前时间，存入list
+        if (task.getExecuteTime() <= System.currentTimeMillis()) {
+            cacheService.lLeftPush(ScheduleConstants.TOPIC + key, JSON.toJSONString(task));
+        } else if (task.getExecuteTime() <= nextScheduleTime) {
+            //2.2 如果任务的执行时间大于当前时间 && 小于等于预设时间（未来5分钟） 存入zset中
+            cacheService.zAdd(ScheduleConstants.FUTURE + key, JSON.toJSONString(task), task.getExecuteTime());
+        }
+
+
+    }
+```
+
+3. 实现定时同步，即清除redis中未完成任务，从mysql中取得任务
+
+```java
+@Scheduled(cron = "0 */5 * * * ?")
+    @PostConstruct
+    public void reloadData() {
+        clearCache();
+        log.info("数据库数据同步到缓存");
+        Calendar calendar = Calendar.getInstance();
+        calendar.add(Calendar.MINUTE, 5);
+
+        //查看小于未来5分钟的所有任务
+        List<Taskinfo> allTasks = taskinfoMapper.selectList(Wrappers.<Taskinfo>lambdaQuery().lt(Taskinfo::getExecuteTime,calendar.getTime()));
+        if(allTasks != null && allTasks.size() > 0){
+            for (Taskinfo taskinfo : allTasks) {
+                Task task = new Task();
+                BeanUtils.copyProperties(taskinfo,task);
+                task.setExecuteTime(taskinfo.getExecuteTime().getTime());
+                addTaskToCache(task);
+            }
+        }
+    }
+```
+
+4. 将zset中的任务定时刷新到list中
+
+```java
+@Scheduled(cron = "0 */1 * * * ?")
+    public void refresh(){
+
+        String token = cacheService.tryLock("FUTURE_TASK_SYNC", 1000 * 30);
+        if(StringUtils.isNotBlank(token)){
+            log.info("未来数据定时刷新---定时任务");
+
+            //获取所有未来数据的集合key
+            Set<String> futureKeys = cacheService.scan(ScheduleConstants.FUTURE + "*");
+            for (String futureKey : futureKeys) {//future_100_50
+
+                //获取当前数据的key  topic
+                String topicKey = ScheduleConstants.TOPIC+futureKey.split(ScheduleConstants.FUTURE)[1];
+
+                //按照key和分值查询符合条件的数据
+                Set<String> tasks = cacheService.zRangeByScore(futureKey, 0, System.currentTimeMillis());
+
+                //同步数据
+                if(!tasks.isEmpty()){
+                    cacheService.refreshWithPipeline(futureKey,topicKey,tasks);
+                    log.info("成功的将"+futureKey+"刷新到了"+topicKey);
+                }
+            }
+        }
+    }
+```
+
+5. 自媒体端消费队列
+
+```java
+@Autowired
+    private WmNewsAutoScanServiceImpl wmNewsAutoScanService;
+
+    /**
+     * 消费延迟队列数据
+     */
+    @Scheduled(fixedRate = 1000)
+    @Override
+    @SneakyThrows
+    public void scanNewsByTask() {
+
+        log.info("文章审核---消费任务执行---begin---");
+
+        ResponseResult responseResult = scheduleClient.poll(TaskTypeEnum.NEWS_SCAN_TIME.getTaskType(), TaskTypeEnum.NEWS_SCAN_TIME.getPriority());
+        if(responseResult.getCode().equals(200) && responseResult.getData() != null){
+            String json_str = JSON.toJSONString(responseResult.getData());
+            Task task = JSON.parseObject(json_str, Task.class);
+            byte[] parameters = task.getParameters();
+            WmNews wmNews = ProtostuffUtil.deserialize(parameters, WmNews.class);
+            System.out.println(wmNews.getId()+"-----------");
+            wmNewsAutoScanService.autoScanWmNews(wmNews.getId());
+        }
+        log.info("文章审核---消费任务执行---end---");
+    }
+```
+

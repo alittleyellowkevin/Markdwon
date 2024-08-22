@@ -264,6 +264,11 @@ set [session|global] transaction isolation levl {read uncommitted | read committ
 ibd2sdi stu.ibd
 ```
 
+### 锁
+
+- 悲观锁：每次去取数据的时候都认为别人会修改，所以每次拿数据的时候都会上锁
+- 乐观锁：每次取数据都任务别人不好修改，所以不会上锁，但是更新会判断在此期间有没有人更新数据，可以使用版本号
+
 ## 索引
 
 ### 索引分类
